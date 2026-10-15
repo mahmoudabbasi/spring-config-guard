@@ -1,0 +1,24 @@
+<idea-plugin>
+    <id>io.github.springconfigguard</id>
+    <name>Spring Config Guard</name>
+    <vendor>Spring Config Guard</vendor>
+
+    <description>
+        Detect potentially risky Spring Boot production configuration.
+    </description>
+
+    <depends>com.intellij.modules.platform</depends>
+
+    <actions>
+        <action
+                id="io.github.springconfigguard.AnalyzeSpringConfig"
+                class="io.github.springconfigguard.AnalyzeSpringConfigAction"
+                text="Analyze Spring Production Config"
+                description="Analyze production Spring Boot configuration">
+
+            <add-to-group
+                    group-id="ToolsMenu"
+                    anchor="last"/>
+        </action>
+    </actions>
+</idea-plugin>
