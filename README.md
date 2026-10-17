@@ -70,4 +70,5 @@ Bug reports, feature requests, and contributions are welcome. Please open an iss
 
 ## License
 
-A license has not yet been selected. Until a license is added, do not assume that the project is available for unrestricted reuse or redistribution.
+This project is licensed under the MIT License.
+See the [LICENSE](LICENSE) file for details.
