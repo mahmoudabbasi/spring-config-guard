@@ -22,12 +22,12 @@ public class AnalyzeSpringConfigAction extends AnAction {
     @Override
     public void actionPerformed(@NotNull AnActionEvent event) {
 
-        Messages.showInfoMessage(
-                "The action was executed.",
-                "Spring Config Guard Debug"
-        );
-
-        System.out.println("Spring Config Guard: actionPerformed started");
+//        Messages.showInfoMessage(
+//                "The action was executed.",
+//                "Spring Config Guard Debug"
+//        );
+//
+//        System.out.println("Spring Config Guard: actionPerformed started");
         Project project = event.getProject();
 
         if (project == null) {

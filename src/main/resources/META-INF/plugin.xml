@@ -1,6 +1,6 @@
 <idea-plugin>
     <id>io.github.springconfigguard</id>
-    <name>Spring Config Guard</name>
+    <name>Spring Config Guard - Production Risk Analyzer</name>
     <vendor>Spring Config Guard</vendor>
 
     <description>
